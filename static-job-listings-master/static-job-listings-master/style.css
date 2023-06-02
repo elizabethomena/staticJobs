@@ -1,0 +1,96 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./images/bg-header-desktop.svg);
+    background-color: hsl(180, 29%, 50%);
+    background-size: cover;
+
+    width: 100vw;
+    height: 100px;
+}
+body{
+    background-color:  hsl(180, 52%, 96%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 2rem;
+    gap: 30px;
+}
+.caixa-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box-info{
+    background-color: white;
+    width: 100%;
+    box-shadow: 10px 14px 10px hsl(180, 10%, 86%);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.item-name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.item-data{
+    color:  hsl(180, 8%, 52%);
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.item-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+.app{
+    color: hsl(180, 29%, 50%);
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0;
+}
+.tags button{
+    background-color: hsl(180, 52%, 96%);
+    color: hsl(180, 29%, 50%);
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'League Spartan', sans-serif;
+}
+.vaga{
+    color: hsl(180, 29%, 50%);
+}
+.new{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+.featured{
+    background-color:  hsl(180, 14%, 20%);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
